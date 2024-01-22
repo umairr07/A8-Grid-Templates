@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  background-color: #ecf3f9;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: 2px solid black;
+  height: 600px;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.testimonal1 {
+  border-radius: 10px;
+  background-image: url(./Imagesss/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+  background-color: #814ed4;
+}
+
+.profile {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.img img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+
+.name {
+  font-size: 13px;
+  padding: 15px 0;
+  margin-left: 10px;
+}
+
+.name > h3 {
+  color: white;
+}
+
+.name > p {
+  font-weight: 800;
+  color: rgb(194, 191, 191);
+  font-size: 10px;
+}
+
+.description {
+  padding: 10px 30px;
+}
+
+.description > h3 {
+  color: white;
+  font-weight: bold;
+}
+
+.description > p {
+  padding-top: 10px;
+  color: rgb(194, 191, 191);
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.first {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.testimonal2 {
+  border-radius: 10px;
+  background-color: #48556a;
+}
+
+.sec {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.testimonal3 {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.description .h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description .t3 {
+  font-size: 15px;
+  color: #48556a;
+}
+
+.third {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.testimonal4 {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.fourth {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.testimonal5 {
+  border-radius: 10px;
+  background-color: #19212e;
+}
+
+.fifth {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
